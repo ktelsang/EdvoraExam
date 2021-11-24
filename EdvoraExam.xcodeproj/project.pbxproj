@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C152147D274C0CDA0068DCC1 /* ClassroomComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C152147C274C0CDA0068DCC1 /* ClassroomComponent.swift */; };
+		C152147F274C16780068DCC1 /* CreateNextExam.swift in Sources */ = {isa = PBXBuildFile; fileRef = C152147E274C16780068DCC1 /* CreateNextExam.swift */; };
+		C1521481274C171B0068DCC1 /* AddInstructionComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1521480274C171B0068DCC1 /* AddInstructionComponent.swift */; };
+		C1521483274C17960068DCC1 /* SectionComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1521482274C17960068DCC1 /* SectionComponent.swift */; };
+		C1521485274C18260068DCC1 /* AddQuestionComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1521484274C18260068DCC1 /* AddQuestionComponent.swift */; };
+		C1521487274E45AB0068DCC1 /* CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1521486274E45AB0068DCC1 /* CustomColors.swift */; };
+		C1610EAA274964B50076DCE9 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1610EA9274964B50076DCE9 /* DashboardView.swift */; };
+		C1D61F52274A0A7B008516EC /* ExamListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D61F51274A0A7B008516EC /* ExamListView.swift */; };
+		C1D61F54274A1834008516EC /* AttendanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D61F53274A1834008516EC /* AttendanceView.swift */; };
+		C1D61F58274A4A71008516EC /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D61F57274A4A71008516EC /* ProgressBar.swift */; };
+		C1D61F5D274BD4FA008516EC /* CreateNewExamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D61F5C274BD4FA008516EC /* CreateNewExamView.swift */; };
+		C1D61F60274BF91D008516EC /* DateComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D61F5F274BF91C008516EC /* DateComponent.swift */; };
+		C1D61F62274BF9AA008516EC /* TimeComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D61F61274BF9AA008516EC /* TimeComponent.swift */; };
+		C1D61F64274BFA43008516EC /* DuartionComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D61F63274BFA43008516EC /* DuartionComponent.swift */; };
+		C1D61F66274BFA9E008516EC /* TimeframeComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D61F65274BFA9E008516EC /* TimeframeComponent.swift */; };
+		C1D61F68274BFB00008516EC /* TotalMarksComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D61F67274BFB00008516EC /* TotalMarksComponent.swift */; };
+		C1D61F6A274BFB4A008516EC /* CategoryComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D61F69274BFB4A008516EC /* CategoryComponent.swift */; };
+		C1D61F6C274BFBDB008516EC /* SyllabusComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D61F6B274BFBDB008516EC /* SyllabusComponent.swift */; };
+		C1D61F6E274BFEBA008516EC /* FormHeaderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D61F6D274BFEBA008516EC /* FormHeaderComponent.swift */; };
+		C1F2FCB42749380300BA2E3A /* EdvoraExamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F2FCB32749380300BA2E3A /* EdvoraExamApp.swift */; };
+		C1F2FCB62749380300BA2E3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F2FCB52749380300BA2E3A /* ContentView.swift */; };
+		C1F2FCB82749380600BA2E3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1F2FCB72749380600BA2E3A /* Assets.xcassets */; };
+		C1F2FCBB2749380600BA2E3A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1F2FCBA2749380600BA2E3A /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C152147C274C0CDA0068DCC1 /* ClassroomComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassroomComponent.swift; sourceTree = "<group>"; };
+		C152147E274C16780068DCC1 /* CreateNextExam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNextExam.swift; sourceTree = "<group>"; };
+		C1521480274C171B0068DCC1 /* AddInstructionComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddInstructionComponent.swift; sourceTree = "<group>"; };
+		C1521482274C17960068DCC1 /* SectionComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionComponent.swift; sourceTree = "<group>"; };
+		C1521484274C18260068DCC1 /* AddQuestionComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddQuestionComponent.swift; sourceTree = "<group>"; };
+		C1521486274E45AB0068DCC1 /* CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColors.swift; sourceTree = "<group>"; };
+		C1610EA9274964B50076DCE9 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		C1D61F51274A0A7B008516EC /* ExamListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamListView.swift; sourceTree = "<group>"; };
+		C1D61F53274A1834008516EC /* AttendanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceView.swift; sourceTree = "<group>"; };
+		C1D61F57274A4A71008516EC /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		C1D61F5C274BD4FA008516EC /* CreateNewExamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewExamView.swift; sourceTree = "<group>"; };
+		C1D61F5F274BF91C008516EC /* DateComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateComponent.swift; sourceTree = "<group>"; };
+		C1D61F61274BF9AA008516EC /* TimeComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeComponent.swift; sourceTree = "<group>"; };
+		C1D61F63274BFA43008516EC /* DuartionComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuartionComponent.swift; sourceTree = "<group>"; };
+		C1D61F65274BFA9E008516EC /* TimeframeComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeframeComponent.swift; sourceTree = "<group>"; };
+		C1D61F67274BFB00008516EC /* TotalMarksComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalMarksComponent.swift; sourceTree = "<group>"; };
+		C1D61F69274BFB4A008516EC /* CategoryComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryComponent.swift; sourceTree = "<group>"; };
+		C1D61F6B274BFBDB008516EC /* SyllabusComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyllabusComponent.swift; sourceTree = "<group>"; };
+		C1D61F6D274BFEBA008516EC /* FormHeaderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormHeaderComponent.swift; sourceTree = "<group>"; };
+		C1F2FCB02749380300BA2E3A /* EdvoraExam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EdvoraExam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1F2FCB32749380300BA2E3A /* EdvoraExamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdvoraExamApp.swift; sourceTree = "<group>"; };
+		C1F2FCB52749380300BA2E3A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C1F2FCB72749380600BA2E3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1F2FCBA2749380600BA2E3A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C1F2FCBC2749380600BA2E3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1F2FCAD2749380300BA2E3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1521488274E46D70068DCC1 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				C1D61F57274A4A71008516EC /* ProgressBar.swift */,
+				C1521486274E45AB0068DCC1 /* CustomColors.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		C1521489274E46F70068DCC1 /* DashboardComponent */ = {
+			isa = PBXGroup;
+			children = (
+				C1610EA9274964B50076DCE9 /* DashboardView.swift */,
+				C1D61F51274A0A7B008516EC /* ExamListView.swift */,
+				C1D61F53274A1834008516EC /* AttendanceView.swift */,
+			);
+			path = DashboardComponent;
+			sourceTree = "<group>";
+		};
+		C152148A274E471D0068DCC1 /* NewExamComponent */ = {
+			isa = PBXGroup;
+			children = (
+				C152147E274C16780068DCC1 /* CreateNextExam.swift */,
+				C1D61F5C274BD4FA008516EC /* CreateNewExamView.swift */,
+			);
+			path = NewExamComponent;
+			sourceTree = "<group>";
+		};
+		C1D61F5E274BF903008516EC /* FormComponents */ = {
+			isa = PBXGroup;
+			children = (
+				C1D61F5F274BF91C008516EC /* DateComponent.swift */,
+				C1D61F61274BF9AA008516EC /* TimeComponent.swift */,
+				C1D61F63274BFA43008516EC /* DuartionComponent.swift */,
+				C1D61F65274BFA9E008516EC /* TimeframeComponent.swift */,
+				C152147C274C0CDA0068DCC1 /* ClassroomComponent.swift */,
+				C1D61F67274BFB00008516EC /* TotalMarksComponent.swift */,
+				C1D61F69274BFB4A008516EC /* CategoryComponent.swift */,
+				C1D61F6B274BFBDB008516EC /* SyllabusComponent.swift */,
+				C1D61F6D274BFEBA008516EC /* FormHeaderComponent.swift */,
+				C1521480274C171B0068DCC1 /* AddInstructionComponent.swift */,
+				C1521482274C17960068DCC1 /* SectionComponent.swift */,
+				C1521484274C18260068DCC1 /* AddQuestionComponent.swift */,
+			);
+			path = FormComponents;
+			sourceTree = "<group>";
+		};
+		C1F2FCA72749380300BA2E3A = {
+			isa = PBXGroup;
+			children = (
+				C1F2FCB22749380300BA2E3A /* EdvoraExam */,
+				C1F2FCB12749380300BA2E3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1F2FCB12749380300BA2E3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1F2FCB02749380300BA2E3A /* EdvoraExam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1F2FCB22749380300BA2E3A /* EdvoraExam */ = {
+			isa = PBXGroup;
+			children = (
+				C1F2FCB32749380300BA2E3A /* EdvoraExamApp.swift */,
+				C1F2FCB52749380300BA2E3A /* ContentView.swift */,
+				C1D61F5E274BF903008516EC /* FormComponents */,
+				C152148A274E471D0068DCC1 /* NewExamComponent */,
+				C1521489274E46F70068DCC1 /* DashboardComponent */,
+				C1521488274E46D70068DCC1 /* Utility */,
+				C1F2FCB72749380600BA2E3A /* Assets.xcassets */,
+				C1F2FCBC2749380600BA2E3A /* Info.plist */,
+				C1F2FCB92749380600BA2E3A /* Preview Content */,
+			);
+			path = EdvoraExam;
+			sourceTree = "<group>";
+		};
+		C1F2FCB92749380600BA2E3A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C1F2FCBA2749380600BA2E3A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1F2FCAF2749380300BA2E3A /* EdvoraExam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1F2FCBF2749380600BA2E3A /* Build configuration list for PBXNativeTarget "EdvoraExam" */;
+			buildPhases = (
+				C1F2FCAC2749380300BA2E3A /* Sources */,
+				C1F2FCAD2749380300BA2E3A /* Frameworks */,
+				C1F2FCAE2749380300BA2E3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EdvoraExam;
+			productName = EdvoraExam;
+			productReference = C1F2FCB02749380300BA2E3A /* EdvoraExam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1F2FCA82749380300BA2E3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					C1F2FCAF2749380300BA2E3A = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = C1F2FCAB2749380300BA2E3A /* Build configuration list for PBXProject "EdvoraExam" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1F2FCA72749380300BA2E3A;
+			productRefGroup = C1F2FCB12749380300BA2E3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1F2FCAF2749380300BA2E3A /* EdvoraExam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1F2FCAE2749380300BA2E3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1F2FCBB2749380600BA2E3A /* Preview Assets.xcassets in Resources */,
+				C1F2FCB82749380600BA2E3A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1F2FCAC2749380300BA2E3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1F2FCB62749380300BA2E3A /* ContentView.swift in Sources */,
+				C1610EAA274964B50076DCE9 /* DashboardView.swift in Sources */,
+				C1F2FCB42749380300BA2E3A /* EdvoraExamApp.swift in Sources */,
+				C1D61F52274A0A7B008516EC /* ExamListView.swift in Sources */,
+				C1D61F66274BFA9E008516EC /* TimeframeComponent.swift in Sources */,
+				C1521485274C18260068DCC1 /* AddQuestionComponent.swift in Sources */,
+				C1D61F6A274BFB4A008516EC /* CategoryComponent.swift in Sources */,
+				C1D61F5D274BD4FA008516EC /* CreateNewExamView.swift in Sources */,
+				C1D61F64274BFA43008516EC /* DuartionComponent.swift in Sources */,
+				C1521481274C171B0068DCC1 /* AddInstructionComponent.swift in Sources */,
+				C1D61F58274A4A71008516EC /* ProgressBar.swift in Sources */,
+				C1521483274C17960068DCC1 /* SectionComponent.swift in Sources */,
+				C152147D274C0CDA0068DCC1 /* ClassroomComponent.swift in Sources */,
+				C1D61F54274A1834008516EC /* AttendanceView.swift in Sources */,
+				C152147F274C16780068DCC1 /* CreateNextExam.swift in Sources */,
+				C1D61F6C274BFBDB008516EC /* SyllabusComponent.swift in Sources */,
+				C1521487274E45AB0068DCC1 /* CustomColors.swift in Sources */,
+				C1D61F68274BFB00008516EC /* TotalMarksComponent.swift in Sources */,
+				C1D61F62274BF9AA008516EC /* TimeComponent.swift in Sources */,
+				C1D61F60274BF91D008516EC /* DateComponent.swift in Sources */,
+				C1D61F6E274BFEBA008516EC /* FormHeaderComponent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C1F2FCBD2749380600BA2E3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1F2FCBE2749380600BA2E3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1F2FCC02749380600BA2E3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"EdvoraExam/Preview Content\"";
+				DEVELOPMENT_TEAM = SYDNGDT92R;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = EdvoraExam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackathonswift.native.app.EdvoraExam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1F2FCC12749380600BA2E3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"EdvoraExam/Preview Content\"";
+				DEVELOPMENT_TEAM = SYDNGDT92R;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = EdvoraExam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackathonswift.native.app.EdvoraExam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1F2FCAB2749380300BA2E3A /* Build configuration list for PBXProject "EdvoraExam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1F2FCBD2749380600BA2E3A /* Debug */,
+				C1F2FCBE2749380600BA2E3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1F2FCBF2749380600BA2E3A /* Build configuration list for PBXNativeTarget "EdvoraExam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1F2FCC02749380600BA2E3A /* Debug */,
+				C1F2FCC12749380600BA2E3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1F2FCA82749380300BA2E3A /* Project object */;
+}
