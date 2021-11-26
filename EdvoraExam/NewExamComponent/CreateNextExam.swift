@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct CreateNextExam: View {
+    @EnvironmentObject var viewRouter: ViewRouter
     var body: some View {
         VStack {
             AddInstructionComponent()
@@ -18,6 +19,6 @@ struct CreateNextExam: View {
 
 struct CreateNextExam_Previews: PreviewProvider {
     static var previews: some View {
-        CreateNextExam()
+        CreateNextExam().environmentObject(ViewRouter())
     }
 }

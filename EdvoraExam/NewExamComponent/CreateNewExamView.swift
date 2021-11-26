@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CreateNewExamView: View {
-
+    @EnvironmentObject var viewRouter: ViewRouter
     var body: some View {
         
         VStack {
@@ -85,7 +85,7 @@ struct CreateNewExamView: View {
                 
 struct CreateNewExamView_Previews: PreviewProvider {
     static var previews: some View {
-        CreateNewExamView()
+        CreateNewExamView().environmentObject(ViewRouter())
     }
 }
 

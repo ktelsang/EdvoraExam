@@ -8,13 +8,16 @@
 import SwiftUI
 
 struct FormHeaderSaveComponent: View {
-
+    @EnvironmentObject var viewRouter: ViewRouter
     var body: some View {
         ZStack {
             VStack {
                 HStack(alignment: .bottom) {
                     Button(action: {
-                      
+                        withAnimation {
+                            viewRouter.currentPage = .page1
+                            viewRouter.tabSelection = 2
+                        }
                     }, label: {
                         Image(systemName: "arrow.backward")
                             .resizable()
@@ -54,6 +57,6 @@ struct FormHeaderSaveComponent: View {
 
 struct FormHeaderSaveComponent_Previews: PreviewProvider {
     static var previews: some View {
-        FormHeaderSaveComponent()
+        FormHeaderSaveComponent().environmentObject(ViewRouter())
     }
 }

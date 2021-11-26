@@ -13,8 +13,8 @@ class DateComp: ObservableObject {
 
 struct DateComponent: View {
     @ObservedObject var dateComp = DateComp()
-    @State var showDatePicker = false
-    @State var selectedDate = Date()
+    @State private var showDatePicker = false
+    @State private var selectedDate = Date()
     
     var body: some View {
         HStack {

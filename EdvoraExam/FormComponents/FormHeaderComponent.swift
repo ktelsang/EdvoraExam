@@ -10,7 +10,7 @@ import SwiftUI
 
 
 struct FormHeaderComponent: View {
-
+    @EnvironmentObject var viewRouter: ViewRouter
     var body: some View {
         ZStack {
             VStack {
@@ -33,8 +33,12 @@ struct FormHeaderComponent: View {
                             .padding()
                         Spacer()
                     }
-
+                    
                     Button("Next"){
+                        withAnimation {
+                            viewRouter.currentPage = .page2
+                            viewRouter.tabSelection = 2
+                        }
                     }
                     .padding()
                     .frame(width: 70, height: 35, alignment: .center)
@@ -55,6 +59,6 @@ struct FormHeaderComponent: View {
 
 struct FormHeaderComponent_Previews: PreviewProvider {
     static var previews: some View {
-        FormHeaderComponent()
+        FormHeaderComponent().environmentObject(ViewRouter())
     }
 }

@@ -22,7 +22,7 @@ struct AddInstructionComponent: View {
     @ObservedObject var addSectionTitle = AddInstructionComp()
     @ObservedObject var addSectionDescription = AddInstructionComp()
     @ObservedObject var addQuestionField = AddQuestionFeild()
-
+    @EnvironmentObject var viewRouter: ViewRouter
     var body: some View {
         
         ScrollView(.vertical) {
@@ -96,6 +96,6 @@ struct AddInstructionComponent: View {
 
 struct AddInstructionComponent_Previews: PreviewProvider {
     static var previews: some View {
-        AddInstructionComponent()
+        AddInstructionComponent().environmentObject(ViewRouter())
     }
 }

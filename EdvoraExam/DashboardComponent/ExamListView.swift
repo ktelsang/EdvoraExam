@@ -17,7 +17,7 @@ struct Examination: Identifiable {
 }
 
 struct ExamListView: View {
-    @State var examinations = [
+    @State private var examinations = [
         Examination(examName: "Object Oriented Programming", examTime: "2pm - 3pm", examMarks: "25 marks", examType: "MCQs", isExamStarted: false),
         Examination(examName: "Java Programming", examTime: "3pm - 4pm", examMarks: "30 marks", examType: "Viva", isExamStarted: true),
         Examination(examName: "Swift Programming", examTime: "4pm - 5pm", examMarks: "25 marks", examType: "Viva", isExamStarted: true)

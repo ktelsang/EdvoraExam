@@ -8,27 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var viewRouter = ViewRouter()
+    
     var body: some View {
-        TabView {
+        TabView(selection: $viewRouter.tabSelection) {
             DashboardView()
             
                 .tabItem {
                     Image(systemName: "square.stack.3d.down.right.fill")
                     Text("Dashboard")
                 }
+                .tag(1)
             
-            CreateNewExamView()
-                .tabItem {
-                    Image(systemName: "graduationcap")
+                ExamView().environmentObject(viewRouter)
+                .tabItem{Image(systemName: "graduationcap")
                     Text("Exams")
                 }
-            
-            CreateNextExam()
-                .tabItem {
-                    Image(systemName: "book")
-                    Text("Create New Exam")
-                }
-            
+                .tag(2)
             
         }
         .accentColor(brownColor)
