@@ -11,6 +11,7 @@ struct CreateNextExam: View {
     var body: some View {
         VStack {
             AddInstructionComponent()
+            Spacer()
         }
     }
 }

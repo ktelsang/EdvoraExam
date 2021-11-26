@@ -1,22 +1,20 @@
 //
-//  FormHeaderComponent.swift
+//  FormHeaderSaveComponent.swift
 //  EdvoraExam
 //
-//  Created by kavyashree SHRIPAD HEGDE on 22/11/21.
+//  Created by kavyashree SHRIPAD HEGDE on 24/11/21.
 //
 
 import SwiftUI
 
-
-
-struct FormHeaderComponent: View {
+struct FormHeaderSaveComponent: View {
 
     var body: some View {
         ZStack {
             VStack {
                 HStack(alignment: .bottom) {
                     Button(action: {
-                        
+                      
                     }, label: {
                         Image(systemName: "arrow.backward")
                             .resizable()
@@ -34,7 +32,8 @@ struct FormHeaderComponent: View {
                         Spacer()
                     }
 
-                    Button("Next"){
+                    Button("Save"){
+
                     }
                     .padding()
                     .frame(width: 70, height: 35, alignment: .center)
@@ -53,8 +52,8 @@ struct FormHeaderComponent: View {
     }
 }
 
-struct FormHeaderComponent_Previews: PreviewProvider {
+struct FormHeaderSaveComponent_Previews: PreviewProvider {
     static var previews: some View {
-        FormHeaderComponent()
+        FormHeaderSaveComponent()
     }
 }

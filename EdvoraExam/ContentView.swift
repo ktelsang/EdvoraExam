@@ -11,16 +11,25 @@ struct ContentView: View {
     var body: some View {
         TabView {
             DashboardView()
-            .tabItem {
+            
+                .tabItem {
                     Image(systemName: "square.stack.3d.down.right.fill")
                     Text("Dashboard")
-            }
+                }
             
             CreateNewExamView()
                 .tabItem {
                     Image(systemName: "graduationcap")
                     Text("Exams")
                 }
+            
+            CreateNextExam()
+                .tabItem {
+                    Image(systemName: "book")
+                    Text("Create New Exam")
+                }
+            
+            
         }
         .accentColor(brownColor)
     }

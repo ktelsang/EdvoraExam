@@ -23,7 +23,7 @@ struct CategoryComponent: View {
             TextField("", text: $categoryComp.text)
                 .placeholder(when: categoryComp.text.isEmpty) {
                     HStack {
-                        Text(" Internal, mocks, etc ").foregroundColor(brownColor)
+                        Text("Internal, mocks, etc ").foregroundColor(brownColor)
                         .opacity(0.4)
                     }
                         

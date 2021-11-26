@@ -14,6 +14,7 @@
 		C1521485274C18260068DCC1 /* AddQuestionComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1521484274C18260068DCC1 /* AddQuestionComponent.swift */; };
 		C1521487274E45AB0068DCC1 /* CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1521486274E45AB0068DCC1 /* CustomColors.swift */; };
 		C1610EAA274964B50076DCE9 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1610EA9274964B50076DCE9 /* DashboardView.swift */; };
+		C1818659274EAF8900212552 /* FormHeaderSaveComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1818658274EAF8900212552 /* FormHeaderSaveComponent.swift */; };
 		C1D61F52274A0A7B008516EC /* ExamListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D61F51274A0A7B008516EC /* ExamListView.swift */; };
 		C1D61F54274A1834008516EC /* AttendanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D61F53274A1834008516EC /* AttendanceView.swift */; };
 		C1D61F58274A4A71008516EC /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D61F57274A4A71008516EC /* ProgressBar.swift */; };
@@ -40,6 +41,7 @@
 		C1521484274C18260068DCC1 /* AddQuestionComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddQuestionComponent.swift; sourceTree = "<group>"; };
 		C1521486274E45AB0068DCC1 /* CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColors.swift; sourceTree = "<group>"; };
 		C1610EA9274964B50076DCE9 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		C1818658274EAF8900212552 /* FormHeaderSaveComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormHeaderSaveComponent.swift; sourceTree = "<group>"; };
 		C1D61F51274A0A7B008516EC /* ExamListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamListView.swift; sourceTree = "<group>"; };
 		C1D61F53274A1834008516EC /* AttendanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceView.swift; sourceTree = "<group>"; };
 		C1D61F57274A4A71008516EC /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				C1521480274C171B0068DCC1 /* AddInstructionComponent.swift */,
 				C1521482274C17960068DCC1 /* SectionComponent.swift */,
 				C1521484274C18260068DCC1 /* AddQuestionComponent.swift */,
+				C1818658274EAF8900212552 /* FormHeaderSaveComponent.swift */,
 			);
 			path = FormComponents;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				C152147D274C0CDA0068DCC1 /* ClassroomComponent.swift in Sources */,
 				C1D61F54274A1834008516EC /* AttendanceView.swift in Sources */,
 				C152147F274C16780068DCC1 /* CreateNextExam.swift in Sources */,
+				C1818659274EAF8900212552 /* FormHeaderSaveComponent.swift in Sources */,
 				C1D61F6C274BFBDB008516EC /* SyllabusComponent.swift in Sources */,
 				C1521487274E45AB0068DCC1 /* CustomColors.swift in Sources */,
 				C1D61F68274BFB00008516EC /* TotalMarksComponent.swift in Sources */,
